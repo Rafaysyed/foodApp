@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg transition duration-200;
+}
+.badge{
+  @apply bg-secondary-100 text-xs p-2 rounded-full font-bold uppercase absolute top-0 ml-2 mt-2;
+}
+.btn{
+  @apply px-4 py-2 rounded-full font-bold uppercase cursor-pointer
+  tracking-wider hover:bg-primary hover:text-white transition duration-200;
+}
+.custom-pr {
+  @apply px-7;
+}
